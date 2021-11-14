@@ -36,9 +36,8 @@ const Technology = () => {
     }
     return (
         <section className="tech">
-            <p><span className="num">03</span> SPACE LAUNCH 101</p>
+            <p className="title"><span className="num">03</span> SPACE LAUNCH 101</p>
             <div>
-                {/* <img src={teckInfo[techIdx].img} alt="" /> */}
                 <picture>
                     <source media="(min-width:1200px)" srcSet={teckInfo[techIdx].imgPc}/>
                     <img src={teckInfo[techIdx].img} alt="" />

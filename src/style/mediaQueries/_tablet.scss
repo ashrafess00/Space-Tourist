@@ -1,4 +1,10 @@
 @media screen and (min-width: 768px) {
+  .title {
+    letter-spacing: 3.375px;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: 3rem;
+  }
   // navbar
   header {
     padding: initial;
@@ -19,6 +25,7 @@
       z-index: 1;
       display: block;
       background-color: #97979723;
+
       display: flex;
       align-items: center;
       align-content: center;
@@ -66,10 +73,7 @@
   }
 
   //destination
-  .title {
-    text-align: left;
-    font-size: 1.25rem;
-  }
+
   .destinationPlanets .planetsImg {
     width: 18.75rem;
   }

@@ -86,7 +86,17 @@ p {
 }
 
 .title {
-  letter-spacing: 3.375px;
+  letter-spacing: 2.275px;
+  font-size: 1rem;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.planetsTitles {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .small-headings {
@@ -97,6 +107,18 @@ p {
 .medium-txt {
   font-size: 1.75rem;
   font-family: "Bellefair", serif;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+span.num {
+  opacity: 0.25;
+  color: white;
 }
 
 header {
@@ -206,6 +228,14 @@ header * {
   height: 0.19rem;
 }
 
+.seperateLine {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+  margin-top: 1rem;
+}
+
 .line {
   position: relative;
 }
@@ -222,18 +252,8 @@ header * {
   height: 0.19rem;
 }
 
-@-webkit-keyframes jj {
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes jj {
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.small-headings {
+  margin-bottom: -1.5rem;
 }
 
 .dots {
@@ -265,10 +285,6 @@ header * {
   transition: all 1s;
 }
 
-.title {
-  margin-left: 5rem;
-}
-
 .numberC {
   width: 9.5rem;
   cursor: pointer;
@@ -288,6 +304,12 @@ header * {
 }
 
 @media screen and (min-width: 768px) {
+  .title {
+    letter-spacing: 3.375px;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: 3rem;
+  }
   header {
     padding: initial;
   }
@@ -358,10 +380,6 @@ header * {
     width: 15.13rem;
     height: 15.13rem;
     font-size: 2rem;
-  }
-  .title {
-    text-align: left;
-    font-size: 1.25rem;
   }
   .destinationPlanets .planetsImg {
     width: 18.75rem;

@@ -69,7 +69,13 @@ p {
 }
 
 .title {
-  letter-spacing: 3.375px;
+  letter-spacing: 2.275px;
+  font-size: 1rem;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 1rem;
+}
+.planetsTitles {
+  user-select: none;
 }
 
 .small-headings {
@@ -79,4 +85,13 @@ p {
 .medium-txt {
   font-size: $medium-txt;
   font-family: "Bellefair", serif;
+}
+
+img {
+  user-select: none;
+}
+
+span.num {
+  opacity: 0.25;
+  color: white;
 }

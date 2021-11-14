@@ -65,7 +65,7 @@ const Destination = () => {
                     <article>
                     <h2 className="planetName">{destinationPlanets[planetIndex].name}</h2>
                     <p>{destinationPlanets[planetIndex].description}</p>
-                    <hr />
+                    <div className="seperateLine"></div>
                     <div className="botInfo">
                         <div>
                             <p className="small-headings">AVG. DISTANCE</p>
