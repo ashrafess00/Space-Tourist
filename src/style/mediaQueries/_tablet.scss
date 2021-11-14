@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+  // navbar
+  header {
+    padding: initial;
+
+    .humIcon {
+      display: none;
+    }
+    nav {
+      position: initial; //
+      top: initial;
+      right: initial;
+      min-width: 70%;
+      height: auto;
+      bottom: 0;
+      backdrop-filter: initial;
+      padding: initial;
+      text-align: left;
+      z-index: 1;
+      display: block;
+      background-color: #97979723;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      padding: 2rem 0;
+      padding-left: 3rem;
+      padding-right: 1rem;
+      &.hide {
+        display: block;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          margin-bottom: initial;
+          a {
+            position: relative;
+            &.clicked {
+              &::after {
+                content: "";
+                height: 5px;
+                background-color: $white;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //   Home
+  .home {
+    padding: 7.375rem 11.1875rem;
+    .explore {
+      width: 15.13rem;
+      height: 15.13rem;
+      font-size: 2rem;
+    }
+  }
+
+  //destination
+  .title {
+    text-align: left;
+    font-size: 1.25rem;
+  }
+  .destinationPlanets .planetsImg {
+    width: 18.75rem;
+  }
+  .planetsTitles {
+    margin: 1rem auto;
+    width: 17.8125rem;
+  }
+
+  .botInfo {
+    display: flex;
+    width: 35.8125rem;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .destinationPlanets article {
+    padding: 0 5rem;
+  }
+
+  //   crew
+  section.crews {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 9.6875rem;
+    .desc {
+      order: 1;
+    }
+    .crewName {
+      order: 2;
+      font-size: 2.5rem;
+    }
+    .bio {
+      order: 3;
+    }
+    .dots {
+      order: 4;
+    }
+    img {
+      order: 5;
+      margin: auto;
+    }
+  }
+
+  //   technology
+  section.tech > div {
+  }
+}

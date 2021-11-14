@@ -1,0 +1,142 @@
+@media screen and (min-width: 1200px) {
+  body {
+    padding-top: 2rem;
+  }
+  // navbar
+  header {
+    position: relative;
+    left: 0;
+    right: 0;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 0.5px;
+      width: 35%;
+      background-color: $white;
+      opacity: 0.5;
+      margin-left: 5rem;
+    }
+    nav {
+      min-width: 2rem;
+    }
+  }
+
+  // home
+  .home {
+    background-image: url("/src/images/bgPc.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10.3125;
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 28.13rem;
+      height: 23.88rem;
+      text-align: left;
+    }
+    .explore {
+      margin: initial;
+      width: 17.13rem;
+      height: 17.13rem;
+      border-radius: 50%;
+      color: black;
+      font-size: 3em;
+      margin-left: 5rem;
+      padding: 2rem;
+    }
+  }
+
+  //destination
+
+  .destinationPlanets {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding: 0 7rem;
+    hr {
+      height: 0.5px;
+      margin-top: 2rem;
+    }
+    .planetsImg {
+      margin-top: 5rem;
+      width: 27.81rem;
+      margin-left: 3rem;
+    }
+    .secondDiv {
+      width: 50%;
+      margin: initial;
+      margin-left: 16rem;
+    }
+    .botInfo {
+      display: flex;
+      width: 15.8125rem;
+      justify-content: space-around;
+      margin: initial;
+    }
+    .planetsTitles {
+      margin: initial;
+    }
+    article {
+      padding: initial;
+    }
+  }
+
+  //   Crews
+  section.crews {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: initial;
+    padding-left: 5rem;
+    img {
+      width: 70%;
+      position: absolute;
+      bottom: 0;
+      right: -10rem;
+    }
+
+    > div {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      width: 30.5rem;
+      margin-top: 4rem;
+      .dots {
+        margin: initial;
+        order: 5;
+        display: flex;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  //   technology
+  section.tech {
+    > div {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 6rem;
+      .info {
+        display: flex;
+        align-items: center;
+        .infoTwo {
+          width: 29.38rem;
+          text-align: left;
+          margin: initial;
+        }
+      }
+      .numberC {
+        flex-direction: column;
+        height: 20rem;
+        margin: initial;
+        div {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+}

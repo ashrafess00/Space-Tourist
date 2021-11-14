@@ -1,0 +1,20 @@
+.home {
+  background-image: url("../images/bgPhone.png");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+  * {
+    margin-bottom: 2rem;
+  }
+}
+
+.explore {
+  margin: 9rem auto 0;
+  background-color: $white;
+  width: 9.38rem;
+  height: 9.38rem;
+  border-radius: 50%;
+  color: black;
+  font-size: 1.25em;
+}

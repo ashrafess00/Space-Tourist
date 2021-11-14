@@ -1,0 +1,24 @@
+.dots {
+  width: 5.5rem;
+  cursor: pointer;
+}
+.dots * {
+  width: 0.63rem;
+  height: 0.63rem;
+  background-color: $white;
+  opacity: 0.17;
+  border-radius: 50%;
+  transition: 1s;
+  user-select: none;
+  &.showOp {
+    opacity: 1;
+  }
+}
+.crewName {
+  font-size: 1.5rem;
+  transition: all 1s;
+}
+
+.title {
+  margin-left: 5rem;
+}

@@ -1,0 +1,15 @@
+.numberC {
+  width: 9.5rem;
+  cursor: pointer;
+  div {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: $white 1px solid;
+    color: $white;
+    &.colored {
+      background-color: white;
+      color: black;
+    }
+  }
+}
