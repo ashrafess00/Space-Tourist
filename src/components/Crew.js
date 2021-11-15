@@ -40,7 +40,7 @@ const Crew = () => {
     }
     return (
         <>
-        <p className="title"><span className="num">02</span> Meet your crew</p>
+        <p className="title crewTitle"><span className="num">02</span> Meet your crew</p>
         <section className="crews">
                 <img src={crewsInfo[crewsIdx].img} alt="" />
                 <div>
