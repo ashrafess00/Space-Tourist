@@ -140,6 +140,11 @@ header nav {
   padding-top: 6.75rem;
   text-align: left;
   z-index: 1;
+  padding-left: 1.5rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-animation: go 1s forwards;
+          animation: go 1s forwards;
 }
 
 header nav.hide {
@@ -158,6 +163,18 @@ header nav li {
 header nav li a {
   color: white;
   width: 100%;
+}
+
+@-webkit-keyframes go {
+  0% {
+    right: -60%;
+  }
+}
+
+@keyframes go {
+  0% {
+    right: -60%;
+  }
 }
 
 header * {

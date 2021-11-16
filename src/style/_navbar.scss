@@ -14,6 +14,9 @@ header {
     padding-top: 6.75rem;
     text-align: left;
     z-index: 1;
+    padding-left: 1.5rem;
+    transition: all 1s;
+    animation: go 1s forwards;
     &.hide {
       display: none;
     }
@@ -29,6 +32,14 @@ header {
       width: 100%;
     }
   }
+}
+@keyframes go {
+  0% {
+    right: -60%;
+  }
+  // 100% {
+  //   opacity: 1;
+  // }
 }
 header * {
   width: 2.5rem;
